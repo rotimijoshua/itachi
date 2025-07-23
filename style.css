@@ -1,0 +1,89 @@
+/*  css reset*/
+*{
+    margin: 0;
+    padding:0 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.header{
+text-align: center;
+background-color:blue;
+padding: 10px;
+color: white;
+border-color: white;
+}
+div.son h4{
+
+    color: blue;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+div.child{
+background-color: white;
+    color: blue;
+    border-right:blue 5px solid ;
+    border-bottom:blue 5px solid ;
+    border-top: blue 5px solid;
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    bottom: 250px
+}
+div.father{
+    position: relative;
+}
+
+div.child h4{
+    color: blue;
+    font-size: 25px;
+}
+
+div.body{
+    color: blue;
+    
+}
+
+div.body h3{
+text-align: center;
+margin: 15px;
+}
+
+
+.parent{
+    height: 550px;
+    background-color: lightgray;
+    padding: 200px;
+    position: relative;
+}
+
+.son{
+    background-color: white;
+    width: 700px;
+    position: absolute;
+    left: 450px;
+    padding: 55px;
+    border-radius: 15px;
+    top: 40px;
+    height: 720px;
+    font-size: 25px;
+}
+.bg{
+    border-color: aliceblue ;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-color: white;
+}
+
+.inside-bg{
+border-color: white;
+
+}
+
+.sublist{
+    margin-left: 30px;
+}
